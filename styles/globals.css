@@ -1,16 +1,76 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap");
 
+body {
+  background: #f2f2f2;
+  color: #333;
+  font-family: "Nunito";
+}
 a {
-  color: inherit;
+  color: #333;
   text-decoration: none;
 }
+.content {
+  max-width: 960px;
+  margin: 0 auto;
+}
 
-* {
-  box-sizing: border-box;
+.content div h1 {
+  color: #333;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.content div p {
+  color: #777;
+}
+
+.content div .btn {
+  display: block;
+  width: 150px;
+  padding: 8px 0;
+  margin: 20px auto;
+  background: #4979ff;
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+}
+
+nav {
+  margin: 10px auto 80px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border-bottom: 1px solid #ddd;
+}
+nav a {
+  margin-left: 12px;
+}
+nav a:hover {
+  color: rgb(20, 141, 141);
+}
+nav .logo {
+  margin-right: auto;
+}
+footer {
+  display: block;
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 60px;
+  color: #777;
+  border-top: 1px solid #eaeaea;
+}
+
+.empatkosongempat {
+  text-align: center;
+}
+.empatkosongempat .home404 {
+  color: blue;
+}
+
+div.content div h1.name {
+  text-align: left;
+}
+div.content div p {
+  font-size: 22px;
 }
